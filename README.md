@@ -46,11 +46,14 @@ El script esta basado en laravel y mysql, tiene un nivel operacional del 91% pue
 # Instalación:
 
 1- Clonar el proyecto en directorio web publico
+
 2- Crear una base de datos para el proyecto
+
 3- importar base.sql 
+
 4- editar archivo .env con los datos de la nueva base de datos.
 
-Requisitos:
+# Requisitos:
 
 PHP 7.1.3+
 
