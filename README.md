@@ -53,6 +53,14 @@ El script esta basado en laravel y mysql, tiene un nivel operacional del 91% pue
 
 4- editar archivo .env con los datos de la nueva base de datos.
 
+# Acceso:
+
+ingresa a http://miip/public
+
+Correo: noky@noky.cl
+
+Contraseña: noky123
+
 # Requisitos:
 
 PHP 7.1.3+
