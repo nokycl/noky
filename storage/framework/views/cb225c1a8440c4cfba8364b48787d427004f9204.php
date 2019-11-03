@@ -1,0 +1,1 @@
+<p><?php echo $text; ?></p><?php /**PATH /var/www/html/resources/views/vendor/mail/html/text.blade.php ENDPATH**/ ?>
