@@ -52,8 +52,8 @@ class EmailVerificationSuccess extends Notification
         return (new MailMessage)
             ->subject('Email Verification Success')
             ->greeting(__('email.hello').'!')
-            ->line('Thank you for email verification. Please click the below link to login ')
-            ->action('Login', route('login'))
+            ->line('Genial!, tu email esta verificado, ya puedes ingresar a la plataforma.')
+            ->action('Ingresar', route('login'))
             ->line(__('email.thankyouNote'));
     }
 

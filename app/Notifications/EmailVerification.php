@@ -52,8 +52,8 @@ class EmailVerification extends Notification
         return (new MailMessage)
             ->subject('Email Verification'.' '.config('app.name').'!')
             ->greeting(__('email.hello').' '.ucwords($this->user->name).'!')
-            ->line('Thank you for registration. Here are your email verification instructions. A request to your email verification has been made. If you did not make this request, simply ignore this email. If you did make this request, please verify ')
-            ->action('Verify', route('front.get-email-verification', $this->user->email_verification_code))
+            ->line('Gracias por registrarte en noky.cl, estas a un paso de ser parte de esta hermosa comunidad, solo tienes que verificar tu email en el enlace que esta abajo.')
+            ->action('Verificar', route('front.get-email-verification', $this->user->email_verification_code))
             ->line(__('email.thankyouNote'));
     }
 
