@@ -50,7 +50,7 @@ class EmailVerificationSuccess extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-            ->subject('Email Verification Success')
+            ->subject('Email Verificado con exito!')
             ->greeting(__('email.hello').'!')
             ->line('Genial!, tu email esta verificado, ya puedes ingresar a la plataforma.')
             ->action('Ingresar', route('login'))

@@ -50,7 +50,7 @@ class EmailVerification extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-            ->subject('Email Verification'.' '.config('app.name').'!')
+            ->subject('Verifica tu Email'.' '.config('app.name').'!')
             ->greeting(__('email.hello').' '.ucwords($this->user->name).'!')
             ->line('Gracias por registrarte en noky.cl, estas a un paso de ser parte de esta hermosa comunidad, solo tienes que verificar tu email en el enlace que esta abajo.')
             ->action('Verificar', route('front.get-email-verification', $this->user->email_verification_code))
