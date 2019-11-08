@@ -46,14 +46,14 @@
 
 @section('content')
     @if(!is_null($global->licence_expire_on) && $global->status == 'license_expired')
-        <a href="{{ route('admin.billing') }}">
+        <a href="soporte@noky.cl">
             <div class="alert alert-danger col-md-12">
                 <h5 class="text-white">@lang('messages.licenseExpiredNote')</h5>
             </div>
         </a>
     @endif
     @if($company->package->default == 'yes' || $company->package->default == 'trial')
-        <a href="{{ route('admin.billing') }}">
+        <a href="soporte@noky.cl">
             <div class="alert alert-danger col-md-12">
                 <h5 class="text-white">@lang('messages.purchasePackageMessage')</h5>
             </div>
